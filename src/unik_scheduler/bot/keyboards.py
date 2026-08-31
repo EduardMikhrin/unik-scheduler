@@ -49,9 +49,7 @@ def component_subjects(
             title = title[:52] + "…"
         builder.button(
             text=f"{mark} {title}",
-            callback_data=ElectiveCB(
-                action="toggle", component=component, subject_id=subject.id
-            ),
+            callback_data=ElectiveCB(action="toggle", component=component, subject_id=subject.id),
         )
     builder.button(text="⬅️ До компонентів", callback_data=ElectiveCB(action="back"))
     builder.adjust(1)

@@ -79,8 +79,12 @@ def main() -> int:
     }
     everything = result["normative"] + result["electives"]
 
-    dropped = {key for s in catalog.get("normative", []) + catalog.get("electives", [])
-               for key in s if key in DROP_HINT}
+    dropped = {
+        key
+        for s in catalog.get("normative", []) + catalog.get("electives", [])
+        for key in s
+        if key in DROP_HINT
+    }
     if dropped:
         print(f"dropped unused fields: {', '.join(sorted(dropped))}")
     if "meta" in catalog:

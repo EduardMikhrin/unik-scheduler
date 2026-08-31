@@ -126,9 +126,7 @@ class NotificationLog(Base):
     user_id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
     kind: Mapped[str] = mapped_column(String(16), primary_key=True)  # reminder | digest
     key: Mapped[str] = mapped_column(String(128), primary_key=True)
-    sent_at: Mapped[dt.datetime] = mapped_column(
-        DateTime(timezone=True), server_default=func.now()
-    )
+    sent_at: Mapped[dt.datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
 
 
 class AppState(Base):

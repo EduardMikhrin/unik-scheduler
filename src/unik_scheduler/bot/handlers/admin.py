@@ -39,9 +39,7 @@ def _who(user: User) -> str:
     return f"{fmt.quote(label)} (<code>{user.id}</code>)"
 
 
-async def _resolve_target(
-    session: AsyncSession, raw: str, *, create_missing: bool
-) -> User | None:
+async def _resolve_target(session: AsyncSession, raw: str, *, create_missing: bool) -> User | None:
     raw = raw.strip()
     if raw.startswith("@"):
         return await find_user_by_username(session, raw)
@@ -62,9 +60,7 @@ async def cmd_admin(message: Message) -> None:
 
 
 @router.message(Command("grant"), IsAdmin())
-async def cmd_grant(
-    message: Message, command: CommandObject, session: AsyncSession
-) -> None:
+async def cmd_grant(message: Message, command: CommandObject, session: AsyncSession) -> None:
     if not command.args:
         await message.answer(
             "Вкажи кого: <code>/grant 123456789</code> або <code>/grant @nick</code>"
@@ -111,9 +107,7 @@ async def cmd_revoke(
 async def cmd_admins(message: Message, session: AsyncSession) -> None:
     rows = await admins(session)
     owner = get_settings().initial_admin_id
-    lines = [
-        f"• {_who(admin)}" + (" — власник" if admin.id == owner else "") for admin in rows
-    ]
+    lines = [f"• {_who(admin)}" + (" — власник" if admin.id == owner else "") for admin in rows]
     await message.answer("👑 <b>Адміністратори</b>\n" + "\n".join(lines))
 
 
@@ -173,9 +167,7 @@ def _render_import_report(report: ImportReport) -> str:
             f"➖ Прибрано ({len(report.removed)}): {fmt.quote(', '.join(report.removed[:10]))}"
         )
         if report.dropped_selections:
-            lines.append(
-                f"  ⚠️ разом з ними знято {report.dropped_selections} вибірок користувачів"
-            )
+            lines.append(f"  ⚠️ разом з ними знято {report.dropped_selections} вибірок користувачів")
     if not (report.added or report.updated or report.removed):
         lines.append("Нічого не змінилося.")
 

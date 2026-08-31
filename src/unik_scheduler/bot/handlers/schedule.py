@@ -23,8 +23,9 @@ router = Router(name="schedule")
 NO_SCHEDULE = "Розклад ще не завантажено. Адміністратор має виконати /sync."
 
 
-async def _day_reply(message: Message, session: AsyncSession, user: User, day: dt.date, *,
-                     tomorrow: bool) -> None:
+async def _day_reply(
+    message: Message, session: AsyncSession, user: User, day: dt.date, *, tomorrow: bool
+) -> None:
     settings = get_settings()
     week = await week_of(session, day)
     if week is None:

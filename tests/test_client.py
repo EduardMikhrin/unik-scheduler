@@ -46,8 +46,13 @@ def test_empty_schedule_is_refused_rather_than_wiping_the_timetable():
 def test_pair_without_a_time_is_skipped():
     payload = {
         "scheduleFirstWeek": [
-            {"day": "Пн", "pairs": [{"name": "Ok", "time": "08:30:00", "type": "Лек", "tag": "lec"},
-                                     {"name": "Broken", "time": None, "type": "Лек", "tag": "lec"}]}
+            {
+                "day": "Пн",
+                "pairs": [
+                    {"name": "Ok", "time": "08:30:00", "type": "Лек", "tag": "lec"},
+                    {"name": "Broken", "time": None, "type": "Лек", "tag": "lec"},
+                ],
+            }
         ],
         "scheduleSecondWeek": [],
     }

@@ -105,9 +105,7 @@ async def lessons_for_day(
         .order_by(Lesson.start)
     )
     return [
-        LessonView(lesson, subject)
-        for lesson, subject in rows.all()
-        if _applies_on(lesson, day)
+        LessonView(lesson, subject) for lesson, subject in rows.all() if _applies_on(lesson, day)
     ]
 
 

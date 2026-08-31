@@ -42,9 +42,7 @@ async def send_daily_digest(bot: Bot, settings: Settings) -> int:
                 continue
             if not await mark_sent(session, user.id, "digest", today.isoformat()):
                 continue
-            sent += int(
-                await send_safely(bot, session, user, render_digest(today, week, views))
-            )
+            sent += int(await send_safely(bot, session, user, render_digest(today, week, views)))
 
     log.info("digest sent to %d user(s)", sent)
     return sent

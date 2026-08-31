@@ -80,9 +80,7 @@ def render_digest(day: dt.date, week: int, views: list[LessonView]) -> str:
     header = f"📅 Сьогодні, {DAY_NAMES_UK[day.weekday()]} · {week} тиждень"
     lines = [header, ""]
     for view in views:
-        lines.append(
-            f"{hhmm(view.start)} {fmt.quote(view.lesson.type)} · {fmt.quote(view.title)}"
-        )
+        lines.append(f"{hhmm(view.start)} {fmt.quote(view.lesson.type)} · {fmt.quote(view.title)}")
     return "\n".join(lines)
 
 
