@@ -1,0 +1,260 @@
+{
+ "groupCode": "3695",
+ "scheduleFirstWeek": [
+  {
+   "day": "Пн",
+   "pairs": [
+    {
+     "lecturer": {
+      "id": "cc41d80b1697c04d19330fba23a82cfc68fb086e3445691578bfae3a3d6f3e57",
+      "name": "Поліщук Михайло Миколайович"
+     },
+     "type": "Лек",
+     "time": "08:30:00",
+     "name": "Інженерна комп'ютерна графіка",
+     "location": null,
+     "tag": "lec",
+     "dates": []
+    },
+    {
+     "lecturer": {
+      "id": "f45b5e982551402070a055ded1b77b706363eab0ded6960ad0d621911aae08db",
+      "name": "Голубєв Леонтій Петрович"
+     },
+     "type": "Лек",
+     "time": "08:30:00",
+     "name": "Основи WEB – технологій",
+     "location": null,
+     "tag": "lec",
+     "dates": []
+    },
+    {
+     "lecturer": {
+      "id": "bb4d3bd125603e48cf30c795c427afd9da53f3a70482aa98ca3b8bbe1980d021",
+      "name": "Клименко Ірина Анатоліївна"
+     },
+     "type": "Лек",
+     "time": "08:30:00",
+     "name": "Тестування та контроль якості (QA) вбудованих систем (Сертифікатна програма ESI&IoT з компанією Global Logic)",
+     "location": null,
+     "tag": "lec",
+     "dates": []
+    },
+    {
+     "lecturer": {
+      "id": "5d0a1ea004df018bee898ddd4ad8c3e72cc667fd047159a21279d02c1637ccf1",
+      "name": "Писарчук Олексій Олександрович"
+     },
+     "type": "Лек",
+     "time": "12:20:00",
+     "name": "Аналіз та обробка часових рядів (Time Series) (Сертифікатна програма Data Science із Sigma Software)",
+     "location": null,
+     "tag": "lec",
+     "dates": []
+    },
+    {
+     "lecturer": {
+      "id": "19b22d9811be808de0ebdc1a74a4701951527150e934c29dafb6a46b67b2ab10",
+      "name": "Тюляков Дмитро Ігорович"
+     },
+     "type": "Лек",
+     "time": "12:20:00",
+     "name": "Основи глибого навчання з підкріпленням",
+     "location": null,
+     "tag": "lec",
+     "dates": []
+    }
+   ]
+  },
+  {
+   "day": "Вв",
+   "pairs": [
+    {
+     "lecturer": {
+      "id": "8d9c668a11b7da777a4b4792852ddd588bcba24383d69d9be824f6c5a3df05c8",
+      "name": "Степанов Андрій Сергійович"
+     },
+     "type": "Лаб",
+     "time": "08:30:00",
+     "name": "Інженерна комп'ютерна графіка",
+     "location": null,
+     "tag": "lab",
+     "dates": []
+    },
+    {
+     "lecturer": {
+      "id": "f45b5e982551402070a055ded1b77b706363eab0ded6960ad0d621911aae08db",
+      "name": "Голубєв Леонтій Петрович"
+     },
+     "type": "Лаб",
+     "time": "08:30:00",
+     "name": "Основи WEB – технологій",
+     "location": null,
+     "tag": "lab",
+     "dates": []
+    },
+    {
+     "lecturer": {
+      "id": "c40477e28188d7007ee92f80bc304a524a237192a5c0ff880a0644d21ba35a81",
+      "name": "Міщенко Людмила Дмитрівна"
+     },
+     "type": "Лаб",
+     "time": "08:30:00",
+     "name": "Тестування та контроль якості (QA) вбудованих систем (Сертифікатна програма ESI&IoT з компанією Global Logic)",
+     "location": null,
+     "tag": "lab",
+     "dates": []
+    }
+   ]
+  },
+  {
+   "day": "Ср",
+   "pairs": [
+    {
+     "lecturer": {
+      "id": "4c5ff013b29f564ed9366e854dcac21ad1d030f753356a6f8f0a14215a7bef90",
+      "name": "Мельничук Вікторія Едуардівна"
+     },
+     "type": "Прак",
+     "time": "12:20:00",
+     "name": "Економіка і підприємництво",
+     "location": null,
+     "tag": "prac",
+     "dates": []
+    }
+   ]
+  },
+  {
+   "day": "Чт",
+   "pairs": [
+    {
+     "lecturer": {
+      "id": "4c5ff013b29f564ed9366e854dcac21ad1d030f753356a6f8f0a14215a7bef90",
+      "name": "Мельничук Вікторія Едуардівна"
+     },
+     "type": "Лек",
+     "time": "14:15:00",
+     "name": "Економіка і підприємництво",
+     "location": null,
+     "tag": "lec",
+     "dates": []
+    }
+   ]
+  }
+ ],
+ "scheduleSecondWeek": [
+  {
+   "day": "Пн",
+   "pairs": [
+    {
+     "lecturer": {
+      "id": "cc41d80b1697c04d19330fba23a82cfc68fb086e3445691578bfae3a3d6f3e57",
+      "name": "Поліщук Михайло Миколайович"
+     },
+     "type": "Лек",
+     "time": "08:30:00",
+     "name": "Інженерна комп'ютерна графіка",
+     "location": null,
+     "tag": "lec",
+     "dates": []
+    },
+    {
+     "lecturer": {
+      "id": "f45b5e982551402070a055ded1b77b706363eab0ded6960ad0d621911aae08db",
+      "name": "Голубєв Леонтій Петрович"
+     },
+     "type": "Лек",
+     "time": "08:30:00",
+     "name": "Основи WEB – технологій",
+     "location": null,
+     "tag": "lec",
+     "dates": []
+    },
+    {
+     "lecturer": {
+      "id": "bb4d3bd125603e48cf30c795c427afd9da53f3a70482aa98ca3b8bbe1980d021",
+      "name": "Клименко Ірина Анатоліївна"
+     },
+     "type": "Лек",
+     "time": "08:30:00",
+     "name": "Тестування та контроль якості (QA) вбудованих систем (Сертифікатна програма ESI&IoT з компанією Global Logic)",
+     "location": null,
+     "tag": "lec",
+     "dates": []
+    },
+    {
+     "lecturer": {
+      "id": "5d0a1ea004df018bee898ddd4ad8c3e72cc667fd047159a21279d02c1637ccf1",
+      "name": "Писарчук Олексій Олександрович"
+     },
+     "type": "Лек",
+     "time": "12:20:00",
+     "name": "Аналіз та обробка часових рядів (Time Series) (Сертифікатна програма Data Science із Sigma Software)",
+     "location": null,
+     "tag": "lec",
+     "dates": []
+    },
+    {
+     "lecturer": {
+      "id": "19b22d9811be808de0ebdc1a74a4701951527150e934c29dafb6a46b67b2ab10",
+      "name": "Тюляков Дмитро Ігорович"
+     },
+     "type": "Лек",
+     "time": "12:20:00",
+     "name": "Основи глибого навчання з підкріпленням",
+     "location": null,
+     "tag": "lec",
+     "dates": []
+    }
+   ]
+  },
+  {
+   "day": "Вв",
+   "pairs": [
+    {
+     "lecturer": {
+      "id": "c6b3b8a3161ded90958bc106daf457912b57f6f6dc43c1ed710f70b57cd8bc03",
+      "name": "Баран Данило Романович"
+     },
+     "type": "Лаб",
+     "time": "08:30:00",
+     "name": "Аналіз та обробка часових рядів (Time Series) (Сертифікатна програма Data Science із Sigma Software)",
+     "location": null,
+     "tag": "lab",
+     "dates": []
+    },
+    {
+     "lecturer": {
+      "id": "19b22d9811be808de0ebdc1a74a4701951527150e934c29dafb6a46b67b2ab10",
+      "name": "Тюляков Дмитро Ігорович"
+     },
+     "type": "Лаб",
+     "time": "08:30:00",
+     "name": "Основи глибого навчання з підкріпленням",
+     "location": null,
+     "tag": "lab",
+     "dates": []
+    }
+   ]
+  },
+  {
+   "day": "Чт",
+   "pairs": [
+    {
+     "lecturer": {
+      "id": "4c5ff013b29f564ed9366e854dcac21ad1d030f753356a6f8f0a14215a7bef90",
+      "name": "Мельничук Вікторія Едуардівна"
+     },
+     "type": "Лек",
+     "time": "14:15:00",
+     "name": "Економіка і підприємництво",
+     "location": null,
+     "tag": "lec",
+     "dates": [
+      "2026-09-10"
+     ]
+    }
+   ]
+  }
+ ]
+}
