@@ -108,8 +108,8 @@ async def main() -> None:
     )
     dispatcher = Dispatcher()
     middleware = DbSessionMiddleware(settings.initial_admin_id)
-    dispatcher.message.middleware(middleware)
-    dispatcher.callback_query.middleware(middleware)
+    dispatcher.message.outer_middleware(middleware)
+    dispatcher.callback_query.outer_middleware(middleware)
     dispatcher.include_router(build_router())
 
     scheduler = AsyncIOScheduler(timezone=settings.timezone)
